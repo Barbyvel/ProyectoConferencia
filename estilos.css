@@ -2,13 +2,13 @@
 header{
     background-color: black;
 }
-header #fondo{
+#fondo{
     width: 100%;
-    opacity:0.5
+    opacity:0.5;
     
 }
 .navbar{
-    background-color: #353a40;
+    background-color: #353a40 !important;
 }
 
 
@@ -26,6 +26,10 @@ header nav p{
 
 }
 
+.card{
+    margin: 1rem;
+}
+
 #comprarT{
     background-color: #29a744;
 }
@@ -36,7 +40,6 @@ header nav p{
     background-color: #353a40;
 }
 .charla{
-    /* text-decoration: none; */
     text-decoration-style: dotted;
     color: black;    
 }
