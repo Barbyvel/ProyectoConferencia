@@ -1,10 +1,12 @@
 
-header{
+
+#presentacion{
     background-color: black;
 }
 #fondo{
     width: 100%;
     opacity:0.5;
+    
     
 }
 .navbar{
