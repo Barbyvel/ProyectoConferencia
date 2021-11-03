@@ -36,7 +36,7 @@ const comprarTickets=()=>{
             <div class="row">
                 <div class="col text-uppercase text-center">
                     <small>Venta</small>
-                    <h2>Valor de tcket $200</h2>
+                    <h2>Valor de ticket $200</h2>
                 </div>
             </div>
             <div class="row">
@@ -44,22 +44,22 @@ const comprarTickets=()=>{
                     <form>
                         <div class="form-row">
                         <div class="d-flex">
-                            <div class="form-group col-6 col-md-6">
+                            <div class="form-group col-6 col-md-6 p-2">
                                 <input type="text" class="form-control" placeholder="Nombre">
                             </div>
-                            <div class="form-group col-6 col-md-6">
+                            <div class="form-group col-6 col-md-6 p-2">
                                 <input type="text" class="form-control" placeholder="Apellido">
                             </div>
                             </div>
-                            <div class="form-group col-12 col-md-12">
+                            <div class="form-group col-12 col-md-12 p-2">
                                 <input type="email" class="form-control" placeholder="Correo">
                             </div>
                             <div class="d-flex">
-                            <div class="form-group col-12 col-md-6">
+                            <div class="form-group col-12 col-md-6 p-2">
                                 <label for="">Cantidad</label>
                                 <input id="cantidadEntrada" type="text" class="form-control" placeholder="Cantidad">
                             </div>
-                            <div class="form-group col-12 col-md-6">
+                            <div class="form-group col-12 col-md-6 p-2">
                                 <label for="">Categoria</label>
                                 <select class="form-select" id="inputState">
                                     <option value="estudiante" selected>Estudiante</option>
@@ -71,17 +71,17 @@ const comprarTickets=()=>{
                         </div>
                         <div class="form-row">
                             <div class="form-group col">
-                                <div id="totalCompra" class="alert alert-primary" role="alert">
+                                <div id="totalCompra" class="alert alert-primary m-2" role="alert">
                                     Total a pagar: $
                                 </div>
                             </div>
                         </div>
                         <div class="form-row d-flex">
-                            <div class="form-group col">
-                                <button type="reset" onclick="limpiar()" class="btn btn-codo btn-block">Borrar</button>
+                            <div class="form-group d-grid  col-6 mx-auto">
+                                <button type="reset" id="limpiar" onclick="limpiar()" class="btn btn-codo btn-block m-2">Borrar</button>
                             </div>
-                            <div class="form-group col">
-                                <button type="button" id="botonCalcular" class="btn btn-codo btn-block" 
+                            <div class="form-group d-grid  col-6 mx-auto">
+                                <button type="button" id="botonCalcular" class="btn btn-codo btn-block m-2 " 
                                 data-bs-toggle="modal" data-bs-target="#exampleModal">Resumen</button>
                             </div>
                         </div>

@@ -66,3 +66,12 @@ footer a{
     text-align: center;
 }
 
+#botonCalcular{
+    background-color:mediumseagreen;
+    color: white;
+
+}
+#limpiar{
+    background-color:mediumseagreen;
+    color: white;
+}
